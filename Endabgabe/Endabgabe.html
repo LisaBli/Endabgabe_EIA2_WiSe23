@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./EndabgabeStylesheet.css">
+    <script src="./EndabgabeMain.js"></script>
+    <script src="./Firework.js"></script>
+    <script src="./Vector.js"></script>
+
+    <title>Rocket Launcher</title>
+</head>
+
+<body>
+    
+    <h1>Rocket Launcher</h1>
+    <form id="LauncherForm" method="get">
+        <div id="container_all">
+            <canvas width="800px" height="600px"></canvas>
+            
+            <div id="container_form">
+
+                <div id="headline1">
+                    <h5>Rocket assembler</h5>
+                </div><br/><br/>
+
+                <h2>select rocket size</h2>
+                <div id="container_type">
+                    <fieldset>
+                        <input id="slider1" class="typeStar" type="range" name="Size" min="20" max="250" step="5"
+                            value="0.1">
+                    </fieldset>
+                </div>
+
+                <h3>select rocket color</h3>
+                <div id="container_color">
+                    <fieldset>
+                        <input id="input2" class="picker" type="color" name="Picker">
+                    </fieldset>
+                </div>
+
+                <h4>select rocket speed</h4>
+                <div id="container_speed">
+                    
+                    <fieldset>
+                        <input id="slider2" class="slider" type="range" name="Speed" min="20" max="60" step="5"
+                            value="0.1">
+                        <span id="fast">fast</span> 
+                        <span id="slow">slow</span>
+                    </fieldset>
+                    
+                </div>
+
+                <fieldset>
+                    <input id="name" type="text" name="Name" placeholder="rocket name...">
+                </fieldset>
+
+                <fieldset>
+                    <button id="but1" class="save">save</button>
+                </fieldset>
+                <div id="headline2">
+                    <h4 id="h4">click name <br/> to load saved rocket</h4>
+                </div>
+
+                <div id="savedRockets"></div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

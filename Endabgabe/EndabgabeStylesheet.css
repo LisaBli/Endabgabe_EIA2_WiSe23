@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1050px) {
+    canvas {
+        width: 100%;
+        background-color: black;
+    }
+}
+
+#container_form {
+    margin-left: 200px;
+    display: flex;
+    height: 600px;
+    width: 210px;
+    flex-direction: column;
+    align-items:flex-start;
+    border: none;
+    align-items: center;
+    background-color: #3d59ab;
+    opacity: 0.95;
+}
+
+#container_all {
+    display: flex;
+    flex-direction: row;
+}
+
+#container_type {
+    display: flex;
+    flex-direction: row;
+}
+
+#container_color {
+    display: flex;
+    flex-direction: row;
+}
+
+#container_speed {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+
+}
+
+#savedRockets {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button {
+    position: relative;
+    margin-top: 12px;
+
+    height: 20px;
+    width: 75px;
+}
+
+canvas {
+    margin-left: 50px;
+    border: black solid;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 50px;
+    color: white;
+}
+
+h2 {
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h4{
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-left: 16px;
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+#headline1 {
+    border-radius: 20px;
+    background-color: #000026;
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 180px;
+}
+
+ul {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.typeStar {
+    margin-right: 10px;
+}
+
+.blue {
+    margin-right: 5px;
+}
+
+.red {
+    margin-right: 5px;
+}
+
+.slow {
+    margin-right: 10px;
+}
+
+.send {
+    margin-top: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+#fast {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    right: 110px;
+}
+
+#slow {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 120px;
+}
+
+#slider {
+    position: relative;
+    left: 20px;
+
+}
+
+#slider2 {
+    position: relative;
+    left: 20px;
+}
+
+body {
+    background-image: url("./hd-wallpaper-gec2b42fbe_1920.jpg");
+}
+
+#h4 {
+    
+    position: relative;
+    text-align: center;
+    color: white;
+    top: -17px;
+}
+
+#headline2 {
+    border-radius: 20px;
+    background-color: #000026;
+    position: relative;
+    top: 10px;
+    height: 50px;
+    width: 180px;
+}
+
+#but1 {
+    color: white;
+    background-color: #000026;
+}
+
+#name {
+    height: 20px;
+}
